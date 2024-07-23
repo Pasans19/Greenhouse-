@@ -1,0 +1,93 @@
+.dashboard {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f8f9fa;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    margin-left: 10px;
+    font-size: 40px;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .summary-item {
+    text-align: center;
+  }
+  
+  .icon {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #17a2b8;
+  }
+  
+  .daily-summary, .last-logged {
+    margin: 20px;
+  }
+  
+  .chart {
+    height: 200px;
+    background-color: #e9ecef;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  .dashboard-container {
+    display: flex;
+  }
+  
+  .dashboard-content {
+    margin-left: 250px; /* Sidebar width */
+    padding: 20px;
+    width: 100%;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    margin-left: 10px;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .summary-item {
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 24px;
+  }
+  

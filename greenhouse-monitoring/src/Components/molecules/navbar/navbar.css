@@ -1,0 +1,45 @@
+/* Apply a custom font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(90deg, rgba(39, 39, 39, 0.9), rgba(59, 59, 59, 0.9)) !important; /* Gradient background */
+  padding: 15px 30px; /* Padding */
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff !important; /* White text */
+  padding: 10px 15px; /* Padding */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  text-align: center;
+}
+
+.nav-link:hover {
+  color: #ffd700 !important; /* Gold color on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1); /* Light border for toggler */
+}
+
+.navbar-collapse {
+  justify-content: flex-end; /* Align the navbar items to the right */
+}
+
+/* Add an underline effect on hover */
+.nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ffd700; /* Gold underline */
+  transition: width 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 100%; /* Full width on hover */
+}

@@ -1,0 +1,47 @@
+/* Custom font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Carousel customization */
+.carousel-item {
+  height: 500px; /* Adjust the height */
+  background-color: #333; /* Fallback background color */
+  color: #fff; /* Text color */
+}
+
+.carousel-item img {
+  object-fit: cover; /* Ensure the image covers the container */
+  opacity: 0.8; /* Slight transparency for the image */
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for caption */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside caption */
+  text-align: left; /* Align text to the left */
+}
+
+.carousel-caption h3 {
+  font-size: 1.8rem; /* Larger font size for the heading */
+  font-weight: 600; /* Bold font weight */
+  color: #ffd700; /* Gold color for the heading */
+}
+
+.carousel-caption p {
+  font-size: 1rem; /* Standard font size for paragraph */
+  font-weight: 300; /* Light font weight */
+  color: #fff; /* White color for the paragraph */
+  margin-top: 10px; /* Space between heading and paragraph */
+}
+
+/* Add custom transition effects */
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  transition: transform 1.2s ease-in-out, opacity 1.2s ease-in-out; /* Smooth transition */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(100%); /* White arrows for controls */
+}
